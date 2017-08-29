@@ -2,5 +2,6 @@ language: java
 install: true
 script: build-scripts/build.sh
 deploy:
+  skip_cleanup: true
   provider: script
   script: build-scripts/deploy.sh
