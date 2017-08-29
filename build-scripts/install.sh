@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
 
-sudo apt install -y nodejs npm
-npm install --global gulp gulp-cli
+npm install --global gulp-cli gulp
