@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+cd backend
 if [ -f "target/travistest-1.0-SNAPSHOT.jar" ]
 then
   echo "file is here"
