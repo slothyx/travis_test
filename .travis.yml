@@ -1,6 +1,6 @@
 language: java
 install: true
-script: build-scripts/build-sh
+script: build-scripts/build.sh
 deploy:
   provider: script
   script: build-scripts/deploy.sh
