@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-if [[ -f "target/travistest-1.0-SNAPSHOT.jar" ]]
+if [ -f "target/travistest-1.0-SNAPSHOT.jar" ]
 then
   echo "file is here"
 else
