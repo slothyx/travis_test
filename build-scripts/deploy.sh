@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 echo "$key" | base64 > key
+chmod 600 key
 
 #TODO collect war to deploy_target
 scp -P 22222 -i key -r -o StrictHostKeyChecking=no deploy_target travis@188.68.35.134:deploy_target
