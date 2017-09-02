@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 echo "$key" | base64 > key
+cat key
 chmod 600 key
 
 #TODO collect war to deploy_target
