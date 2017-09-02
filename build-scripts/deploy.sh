@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+set -ev
+
+echo "$key"
 echo "$key" | base64 > key
 cat key
 chmod 600 key
