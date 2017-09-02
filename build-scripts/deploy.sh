@@ -3,7 +3,7 @@
 set -ev
 
 echo "$key"
-echo "$key" | base64 > key
+echo "$key" | base64 -d > key
 cat key
 chmod 600 key
 
